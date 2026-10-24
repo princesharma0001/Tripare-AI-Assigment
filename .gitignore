@@ -1,0 +1,94 @@
+
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Production builds
+build/
+out/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Operating system
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# IDEs and editors
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*.iml
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing and coverage
+coverage/
+.nyc_output/
+
+# React Native / Metro
+.metro-health-check*
+*.bundle
+*.hbc
+
+# Android
+android/.gradle/
+android/.idea/
+android/local.properties
+android/.cxx/
+android/**/build/
+android/**/captures/
+android/.externalNativeBuild/
+android/.kotlin/
+
+# iOS
+ios/Pods/
+ios/build/
+ios/DerivedData/
+ios/*.xcworkspace/xcuserdata/
+ios/*.xcodeproj/xcuserdata/
+ios/*.xcuserstate
+ios/fastlane/report.xml
+ios/fastlane/Preview.html
+
+# Signing keys and credentials
+*.keystore
+*.jks
+*.p8
+*.p12
+*.mobileprovision
+*.provisionprofile
+credentials.json
+service-account*.json
+
+# Local databases and SQLite sidecars
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+
+# Temporary files
+*.tmp
+*.temp
+*.bak

@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "Tripare AI",
+    "slug": "tripare-dog-breeds",
+    "scheme": "tripare",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tripare.dogbreeds"
+    },
+    "android": { "package": "com.tripare.dogbreeds" },
+    "plugins": ["expo-router", "expo-sqlite"]
+  }
+}
